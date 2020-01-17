@@ -1,0 +1,123 @@
+body{
+	background-image: url('1.jpg'); 
+	background-size: cover;
+	background-position: center;
+	
+	font-family: sans-serif;
+}
+.footer{
+	background: #303036;
+	color: #fff;
+	height: 400px; 
+	width: 1350px;
+	position: absolute;
+	margin: 80% -1% auto;
+	
+}
+.footer .footer-bottom{
+position: relative;
+margin: 10% 40%;
+bottom: 0px;
+left:0px;
+text-align: center;
+
+}
+.footer .footer-content{
+
+	
+    height: 350px;
+    display: flex;
+}
+.footer .footer-content .footer-section{
+	flex: 1;
+	padding: 25px;
+	border:1px solid #fff;
+}
+.footer .footer-section .footer-content .footer-section-about{
+	margin: 1% 5%;
+
+}
+.footer .footer-section .footer-content .footer-section-contact{
+	margin: 1% 10%;
+}
+.footer-bottem{
+	margin: 28% -58% auto;
+	position: center;
+}
+.footer .footer-section .footer-content .footer-section-link{
+	margin: 1% 8%;
+}
+
+.menu-bar{
+	background-image: url('f.jpg'); 
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+
+}
+.menu-bar ul li{
+width: 120px;
+margin: 15px;
+padding: 15px;
+
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: white;
+}
+.active, .menu-bar ul li:hover{
+	background: green;
+	border-radius: 3px;
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background:green;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0px;
+text-align: left;
+}
+.sub-menu-2{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-2{
+	display: block;
+	position: absolute;
+	background:green;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul{
+	display: block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0px;
+text-align: left;
+}
+
+.contact{
+	margin:110% -70% auto;
+	position: absolute;
+}
